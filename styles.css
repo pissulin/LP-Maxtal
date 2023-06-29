@@ -108,7 +108,7 @@ nav ul li a {
 
 .property img {
     width: 100%;
-    height: 250PX;
+    height: auto;
     margin-bottom: 10px;
 }
 
