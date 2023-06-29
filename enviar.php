@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "GET") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
+    $name = $_GET["name"];
+    $email = $_GET["email"];
+    $message = $_GET["message"];
 
     $to = "a.pissulin@gmail.com";
     $subject = "Novo formulário de contato";
