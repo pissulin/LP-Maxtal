@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Imóveis de Médio Padrão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#properties">Imóveis</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Encontre o seu lar perfeito</h1>
+            <p>Nos melhores imóveis de médio padrão da região</p>
+            <a href="#properties" class="btn">Explorar Imóveis</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Por que escolher nossos imóveis de médio padrão?</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="quality.png" alt="Qualidade e conforto">
+                    <h3>Qualidade e conforto</h3>
+                    <p>Nossos imóveis são construídos com padrões de qualidade excepcionais e oferecem um ambiente confortável para você e sua família.</p>
+                </div>
+                <div class="feature">
+                    <img src="location.png" alt="Localização privilegiada">
+                    <h3>Localização privilegiada</h3>
+                    <p>Todos os nossos imóveis estão localizados em áreas estratégicas, próximas a comércios, escolas, parques e outros serviços essenciais.</p>
+                </div>
+                <div class="feature">
+                    <img src="design.png" alt="Design moderno">
+                    <h3>Design moderno</h3>
+                    <p>Cada imóvel apresenta um design contemporâneo, com acabamentos sofisticados e espaços bem projetados para atender às suas necessidades e preferências.</p>
+                </div>
+                <div class="feature">
+                    <img src="amenities.png" alt="Comodidades exclusivas">
+                    <h3>Comodidades exclusivas</h3>
+                    <p>Alguns dos imóveis contam com comodidades exclusivas, como áreas de lazer, academias, piscinas e segurança 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties">
+        <div class="container">
+            <h2>Explore os nossos imóveis agora mesmo</h2>
+            <div class="property-grid">
+                <div class="property">
+                    <img src="property1.jpg" alt="Imóvel 1">
+                    <h3>Imóvel 1</h3>
+                    <p>Descrição do imóvel 1</p>
+                    <a href="#contact" class="btn">Contato</a>
+                </div>
+                <div class="property">
+                    <img src="property2.jpg" alt="Imóvel 2">
+                    <h3>Imóvel 2</h3>
+                    <p>Descrição do imóvel 2</p>
+                    <a href="#contact" class="btn">Contato</a>
+                </div>
+                <div class="property">
+                    <img src="property3.jpg" alt="Imóvel 3">
+                    <h3>Imóvel 3</h3>
+                    <p>Descrição do imóvel 3</p>
+                    <a href="#contact" class="btn">Contato</a>
+                </div>
+                <div class="property">
+                    <img src="property4.jpg" alt="Imóvel 4">
+                    <h3>Imóvel 4</h3>
+                    <p>Descrição do imóvel 4</p>
+                    <a href="#contact" class="btn">Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em contato conosco</h2>
+            <form id="contact-form" action="enviar.php" method="POST">
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
