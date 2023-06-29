@@ -12,7 +12,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
     formData.append("message", message);
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "enviar.php", true);
+    xhr.open("GET", "enviar.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
     xhr.onload = function() {
